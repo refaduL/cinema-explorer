@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+    @apply bg-body text-white;
+}
+
+.active-filter {
+    @apply bg-primary text-black;
+}
+
+.btn-hover {
+    @apply bg-primary rounded-lg py-2 px-5 flex items-center justify-center gap-3 text-[#171923] font-semibold text-sm transition-all duration-200 hover:shadow-glow hover:scale-100;
+}
+
+.btn-hover-transparent {
+    @apply border border-[#74766F] rounded-lg py-2 px-5 flex items-center justify-center gap-3 text-[#6F6F6F] dark:text-gray-200 font-semibold text-sm transition-all duration-300 hover:bg-gray-100 dark:hover:bg-[#2B2C37] hover:shadow-sm hover:scale-102;
+}
+
+.input-hover {
+    @apply transition-all duration-300 hover:bg-gray-100 dark:hover:bg-[#2B2C37] hover:shadow-sm hover:scale-x-100 hover:scale-y-105;
+}
+
+
